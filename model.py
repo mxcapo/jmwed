@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-from settings import DATABASE
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import create_engine, ForeignKey
 from sqlalchemy import Column, String, Integer, Boolean
