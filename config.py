@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 from sqlalchemy.engine.url import URL
-from settings import DATABASE
 from os import environ
 
 class Config(object):
