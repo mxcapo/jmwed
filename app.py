@@ -12,7 +12,7 @@ from model import Party, Guest
 
 @app.route('/')
 def coming_soon():
-    return "Coming Soon"
+    return render_template('templates/index.html')
 
 
 if __name__ == '__main__':
