@@ -10,6 +10,10 @@ db = SQLAlchemy(app)
 
 from model import Party, Guest
 
+@app.route('/')
+def coming_soon():
+    return "Coming Soon"
+
 
 if __name__ == '__main__':
     app.run()
