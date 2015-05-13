@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+
 from flask.ext.script import Manager
 from flask.ext.migrate import Migrate, MigrateCommand
 from os import environ
